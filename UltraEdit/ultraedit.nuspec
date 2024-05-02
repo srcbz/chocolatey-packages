@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ultraedit</id>
+    <version>31.0.0.28</version>
+    <packageSourceUrl>https://github.com/EmpathicSage/chocolatey-packages</packageSourceUrl>
+    <owners>EmpathicSage</owners>
+    <title>UltraEdit®</title>
+    <authors>Idera, Inc.</authors>
+    <projectUrl>https://www.ultraedit.com/</projectUrl>
+    <iconUrl>http://rawcdn.githack.com/EmpathicSage/chocolatey-packages/main/UltraEdit/ultraedit.png</iconUrl>
+    <copyright>2024 UltraEdit®. All rights reserved.</copyright>
+    <licenseUrl>https://www.ideracorp.com/legal/UltraEdit</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://wiki.ultraedit.com/</docsUrl>
+    <mailingListUrl>http://forums.ultraedit.com/</mailingListUrl>
+    <bugTrackerUrl>https://www.ultraedit.com/support/</bugTrackerUrl>
+    <tags>ultraedit text hex html editor ide</tags>
+    <summary>UltraEdit® - Commercial Text Editor for Programmers</summary>
+    <description>UltraEdit® is a commercial text editor that including macros, configurable syntax highlighting, code folding, file type conversions, project management, regular expressions for search-and-replace, a column-edit mode, remote editing of files via FTP, interfaces for APIs or command lines of choice, and more. Files can be browsed and edited in tabs, and it also supports Unicode and hex editing mode. Upon installation, you will be provided a 30 day trial period. After this period expires, you must purchase a license to continue using the application.</description>
+    <releaseNotes>https://www.ultraedit.com/products/ultraedit/latest-changes/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
