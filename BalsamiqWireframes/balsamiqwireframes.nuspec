@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>balsamiqwireframes</id>
+    <version>4.7.5</version>
+    <packageSourceUrl>https://github.com/EmpathicSage/chocolatey-packages</packageSourceUrl>
+    <owners>EmpathicSage</owners>
+    <title>Balsamiq® Wireframes for Desktop</title>
+    <authors>Balsamiq® Studios, LLC</authors>
+    <projectUrl>https://balsamiq.com/wireframes/desktop/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/EmpathicSage/chocolatey-packages/main/BalsamiqWireframes/balsamiqwireframes.png</iconUrl>
+    <copyright>2008-2024 Balsamiq® Studios, LLC</copyright>
+    <licenseUrl>https://balsamiq.com/legal/terms/eula/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://balsamiq.com/wireframes/desktop/docs/</docsUrl>
+    <bugTrackerUrl>https://balsamiq.com/support/</bugTrackerUrl>
+    <tags>balsamiq wireframe mockup prototype sketch trial ux bmpr editor viewer</tags>
+    <summary>Balsamiq® Wireframes for Desktop - Quick and easy wireframing for everyone!</summary>
+    <description>Balsamiq® Wireframes (formerly Balsamiq® Mockups) is the industry-leading rapid wireframing software. By combining the comfort and simplicity of paper sketching with the power of a digital tool, your work is easier to share, modify, and get honest feedback on. Wireframes look like sketches, so stakeholders won't get distracted by little details and can focus on what's important instead. Balsamiq® Wireframes is a commercial application with a fully functional 30 day trial for local files. Afterward, you'll need to buy a license to edit your work. Viewing BMPR files remains accessible even after the trial ends.
+	</description>
+    <releaseNotes>https://balsamiq.com/wireframes/desktop/release-notes/#win</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist140" />
+      <dependency id="dotnetfx" version="4.7.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
